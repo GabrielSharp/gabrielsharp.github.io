@@ -20,7 +20,7 @@ github_username: "gabrielSharp"
 #########################################################################################
 plugins:
   - jekyll-remote-theme
-remote_theme: "jekyll-theme-midnight"
+remote_theme: "jekyll-theme-minima"
 
 # rss: rss
 
