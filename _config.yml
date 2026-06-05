@@ -18,7 +18,9 @@ github_username: "gabrielSharp"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-remote-theme: "jekyll-theme-chirpy"
+plugins:
+  - jekyll-remote-theme
+remote_theme: "jekyll-theme-chirpy"
 
 # rss: rss
 
