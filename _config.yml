@@ -18,10 +18,10 @@ github_username: "gabrielSharp"
 #########################################################################################
 ######### Nothing below needs to be changed (unless you know what you're doing) #########
 #########################################################################################
-# plugins:
-#   - jekyll-remote-theme
-# remote_theme: "jekyll-theme-minima"
-theme: "minima"
+plugins:
+  - jekyll-remote-theme
+remote_theme: pages-themes/dinky@v0.2.0
+# theme: "minima"
 
 # rss: rss
 
