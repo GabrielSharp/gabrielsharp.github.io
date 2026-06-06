@@ -43,3 +43,18 @@ hr {
   font-size: 2.5em;
   opacity: 0.3;
 }
+
+.table-of-contents {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.table-of-contents ul {
+  margin-bottom: 0;
+}
+
+.table-of-contents li {
+  margin: 0.4rem 0;
+}
