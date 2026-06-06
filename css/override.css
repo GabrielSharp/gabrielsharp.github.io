@@ -58,3 +58,18 @@ hr {
 .table-of-contents li {
   margin: 0.4rem 0;
 }
+
+figure {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+figcaption {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
