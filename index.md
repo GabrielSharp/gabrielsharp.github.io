@@ -1,3 +1,7 @@
+---
+layout: home
+---
+
 For past few years whenever ther was a decision to make i spent *a lot* of time doing research. This includes bike related spendings and so this blog emerged as a place to finally start organizing those findings. 
 
 My name is Gabriel, currently I'm doing PhD in Physics and preparing for a triathlon. At the same time I bake sourdough breads and enjoy my time during bike/running/swimming activities.
