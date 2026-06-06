@@ -1,0 +1,13 @@
+{% assign headers = include.html | split: '<h2' %}
+
+<ul>
+{% for header in headers offset:1 %}
+  {% assign parts = header | split: '</h2>' %}
+  {% assign title = parts[0] | split: '>' | last %}
+  {% assign id = parts[0] | split: 'id="' | last | split: '"' | first %}
+
+  <li>
+    <a href="#{{ id }}">{{ title }}</a>
+  </li>
+{% endfor %}
+</ul>
