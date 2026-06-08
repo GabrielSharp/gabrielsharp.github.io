@@ -2,6 +2,10 @@
 layout: default
 ---
 <link href="/css/override.css" rel="stylesheet" type="text/css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/dist/sortable.min.css"
+/>
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
@@ -33,4 +37,15 @@ layout: default
   </div>
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <script
+    src="https://cdn.jsdelivr.net/gh/tofsjonas/sortable@latest/dist/sortable.auto.min.js">
+  </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll("table").forEach(table => {
+      table.classList.add("sortable");
+    });
+  });
+</script>
 </article>
