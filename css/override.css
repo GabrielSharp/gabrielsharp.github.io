@@ -73,3 +73,8 @@ figcaption {
   color: #777;
   margin-top: 0.5rem;
 }
+
+table {
+  display: block;
+  overflow-x: auto;
+}
